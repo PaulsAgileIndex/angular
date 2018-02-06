@@ -1,0 +1,34 @@
+<ScrollView>
+  <StackLayout *ngIf="book" orientation="vertical" horizontalAlignment="center" class="ui grid">
+        <Image *ngIf="book.thumbnails"
+                  class="ui large image"
+                  [src]="book?.thumbnails && book?.thumbnails[0].url"
+                  >
+        </Image>
+        <Label [text]="book?.title" class="header" textWrap="true" class="ui header"></Label>
+        <Label [text]="book?.subtitle" class="description" textWrap="true" class="ui subheader"></Label>
+        <GridLayout columns="*, *" rows="auto,auto">
+          <StackLayout col="0" row="0" orientation="vertical">
+            <Label text="Autoren"></Label>
+            <Label *ngFor="let author of book.authors; last as l" [text]="author + (!l ? ', ' : '')"></Label>
+          </StackLayout>
+          <StackLayout col="1" row="0" orientation="vertical">
+            <Label text="ISBN"></Label>
+            <Label [text]="book?.isbn" class="description" textWrap="true"></Label>
+          </StackLayout>
+          <StackLayout col="0" row="1" orientation="vertical">
+            <Label text="Erschienen"></Label>
+            <Label [text]="book?.published" textWrap="true"></Label>
+          </StackLayout>
+          <StackLayout col="1" row="1" orientation="vertical">
+            <Label text="Rating"></Label>
+            <Label [text]="book?.rating" textWrap="true"></Label>
+          </StackLayout>
+        </GridLayout>   
+        <StackLayout orientation="vertical">
+          <Label text="Beschreibung"></Label>
+          <Label [text]="book?.description" textWrap="true" ></Label>
+        </StackLayout>
+        <Button text="Buch löschen" class="ui red button" (tap)="removeBook()"></Button>
+  </StackLayout>
+</ScrollView>

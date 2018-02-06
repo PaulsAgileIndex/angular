@@ -1,0 +1,45 @@
+{
+  "name": "book-monkey-mobile",
+  "version": "1.0.0",
+  "description": "BookMonkey Mobile - NativeScript Application",
+  "readme": "README.MD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-buch/book-monkey-nativescript.git"
+  },
+  "nativescript": {
+    "id": "org.nativescript.bookmonkeymobile",
+    "tns-android": {
+      "version": "2.5.0"
+    }
+  },
+  "scripts": {
+    "start": "tns run android --emulator"
+  },
+  "dependencies": {
+    "@angular/animations": "4.0.1",
+    "@angular/common": "4.0.1",
+    "@angular/compiler": "4.0.1",
+    "@angular/core": "4.0.1",
+    "@angular/forms": "4.0.1",
+    "@angular/http": "4.0.1",
+    "@angular/platform-browser": "4.0.1",
+    "@angular/platform-browser-dynamic": "4.0.1",
+    "@angular/router": "4.0.1",
+    "nativescript-angular": "1.5.1",
+    "nativescript-theme-core": "~1.0.3",
+    "reflect-metadata": "~0.1.10",
+    "rxjs": "~5.2.0",
+    "tns-core-modules": "2.5.2",
+    "zone.js": "~0.8.5"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11",
+    "nativescript-dev-android-snapshot": "^0.*.*",
+    "nativescript-dev-typescript": "~0.3.5",
+    "typescript": "~2.1.0"
+  }
+}
