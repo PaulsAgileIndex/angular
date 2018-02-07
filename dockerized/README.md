@@ -1,6 +1,6 @@
 # dockerized
 
-## Dockerized Nodejs, npm, AngularCLI
+## Dockerized nodejs, npm, angular
 
 **Attention**: this is only a playground due to the fact that all work is gone if the container is killed.
 
