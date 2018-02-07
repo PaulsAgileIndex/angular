@@ -1,6 +1,8 @@
 # dockerized
 
-## Dockerized NODEJS/NPM/AngularCLI
+## Dockerized Environment (nodejs, npm, angular)
+
+**Attention**: this is only a playground due to the fact that all work is gone if the container is killed.
 
 ```
 docker build -t avoodoo/angular:1.0-SNAPSHOT .
@@ -12,5 +14,5 @@ ng g c my-component
 ng serve --host 0.0.0.0
 ```
 
-## Test the it... 
+## Test it with... 
 [http://localhost:4200](http://localhost:4200)
