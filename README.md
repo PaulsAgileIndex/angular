@@ -8,6 +8,6 @@ Due to Permisson problems during **AngularCli** installation the script implemen
  - [https://docs.npmjs.com/getting-started/fixing-npm-permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
 
-## Alternative Dockerized Environment (Nodejs, npm, Angular)
+## Alternative Dockerized Environment (nodejs, npm, angular)
 For testing purpose one can also use the image/container provided under [dockerized](https://github.com/PaulsAgileIndex/angular/tree/master/dockerized). Attention this is only a playground due to the fact that all work is gone if the container is killed.
  
