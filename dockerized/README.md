@@ -12,5 +12,5 @@ ng g c my-component
 ng serve --host 0.0.0.0
 ```
 
-## Test the it... 
+## Test it with... 
 [http://localhost:4200](http://localhost:4200)
