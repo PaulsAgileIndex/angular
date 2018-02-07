@@ -1,6 +1,8 @@
 # dockerized
 
-## Dockerized NODEJS/NPM/AngularCLI
+## Dockerized Nodejs, npm, AngularCLI
+
+**Attention**: this is only a playground due to the fact that all work is gone if the container is killed.
 
 ```
 docker build -t avoodoo/angular:1.0-SNAPSHOT .
